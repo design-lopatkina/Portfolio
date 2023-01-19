@@ -322,6 +322,7 @@ p{
 	}
 	.header{
 		flex-direction: column;
+		height: 600px;
 	}
 	.tel a{
 		margin-left: 35px;
@@ -349,7 +350,7 @@ p{
 			width: 200px;
 		}
 	.name{
-		font-size: 24px;
+		font-size: 30px;
 		padding-bottom: 13px;
 		padding-top: 30px;
 	}
@@ -370,4 +371,64 @@ p{
 		 position: absolute;
 		 top: 300px;
 	}
+	.skills-title{
+		font-size: 30px;
+	}
+	.img1-skill img, .img2-skill img, .img3-skill img, .img4-skill img {
+    height: 60px;
+    padding-bottom: 21px;
+	}
+	.skills-information {
+		display: block;
+		margin-bottom: 57px;
+	}
+
+    .first-skill, .second-skill, .third-skill {
+    margin-right: 0px;
+    margin-bottom: 55px;
+	}
+
+	.skills{
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	.skills-title{
+		margin-bottom: 46px;
+	}
+	.my-portfolio-title {
+    padding-top: 25px;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+	.portfolio-2,.portfolio-3{
+		display: none;
+	}
+	.portfolio-1{
+		padding: 5px;
+	}
+	.portfolio-1-img{
+		padding-bottom: 20px;
+	}
+	.portfolio-slider{
+		margin-bottom: 50px;
+	}
+	.about-me-title{
+		font-size: 28px;
+	}
+	.about-me-text {
+    font-size: 16px;
+	}
+	.left-footer{
+		margin-right: 0;
+		padding-bottom: 40px;
+	}
+	.footer{
+		padding-top: 45px;
+		height: 400px;
+	}
+	.right-footer {
+    float: left;
+    padding-top: 30px;
+	}
+
 }
