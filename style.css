@@ -32,6 +32,10 @@ p{
 	align-items: center;
 }
 
+.nav-mobile{
+	display: none;
+}
+
 .no-style a{
 	color: #1F1F24;
 	text-decoration: none;
@@ -76,7 +80,9 @@ p{
 		font-size: 18px;
 		padding-bottom: 50px;
 	}
-
+	.job-name-mob{
+		display: none;
+	}
 	.more-information button{
 		background-color: #FF4E2E;
 		color: white;
@@ -302,11 +308,66 @@ p{
 }
 
 @media screen and (max-width: 575px) {
-	.fixed-container,{
-		width: 100%;
-		padding: 0 15px;
+	.fixed-container{
+		max-width: 320px;
+		padding: 0 20px;
+		margin: 0 auto;
+	position: relative;
 	}
-	.nav{
+	.nav, .telegram button{
 		display: none;
+	}
+	.nav-mobile{
+		display: block;
+	}
+	.header{
+		flex-direction: column;
+	}
+	.tel a{
+		margin-left: 35px;
+		margin-right: 0px;
+	}
+	.bg-img img{
+		width: 300px;
+	}
+	.bg-img{
+		top: 120px;
+		right: 6px;
+		position: absolute;
+		display: flex;
+		align-items: center;
+		}
+	.my-image img{
+			width: 200px;
+		}
+	.my-image{
+		position: absolute;
+		top: 84px;
+		left: 85px;
+	}
+		.img-information{
+			width: 200px;
+		}
+	.name{
+		font-size: 24px;
+		padding-bottom: 13px;
+		padding-top: 30px;
+	}
+	.job-name-mob{
+		font-size: 12px;
+		padding-bottom: 33px;
+		display: block;
+		color: #8B95AE;
+	}
+	.job-name{
+		display: none;
+	}
+	.txt-information{
+		width: auto;
+		text-align: center;
+		    padding: 40px;
+
+		 position: absolute;
+		 top: 300px;
 	}
 }
