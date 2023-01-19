@@ -1,0 +1,312 @@
+body, html{
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+p{
+	margin: 0;
+}
+
+.fixed-container{
+	max-width: 1000px;
+	min-width: 320px;
+	padding:0 20px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.header{
+	height: 700px;
+	background-color: #FBFBFB;
+	padding-top: 40px;
+}
+
+.header-line{
+	display: flex;
+	align-items: center;
+}
+
+.nav{
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+}
+
+.no-style a{
+	color: #1F1F24;
+	text-decoration: none;
+	margin-right: 35px;
+}
+
+.with-style a{
+	color: #FC6589;
+	margin-right: 35px;
+}
+
+.tel a{ 
+	color: #1F1F24;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+	margin-left: 250px;
+	margin-right: 40px;
+}
+
+.telegram button{
+	background-color: #FBFBFB;
+	border: 1px solid #FC6589;
+	color: #FC6589;
+	padding: 15px 35px;
+	font-size: 14px;
+}
+
+.txt-information{
+	width: 500px;
+	float: left;
+}
+	.name{
+		font-size: 64px;
+		font-weight: 600;
+		padding-top: 200px;
+		padding-bottom: 25px;
+	}
+
+	.job-name{
+		color: #8B95AE;
+		font-size: 18px;
+		padding-bottom: 50px;
+	}
+
+	.more-information button{
+		background-color: #FF4E2E;
+		color: white;
+		padding: 21px 70px;
+		border: none;
+		font-size: 14px;
+
+	}
+
+.img-information{
+	width: 500px;
+	float: left;
+}
+	.my-image {
+		position: relative;
+		z-index: 2;
+		left: 50px;
+		top: 70px;
+
+	}	
+	.bg-img{
+		position: absolute;
+		top: 79px;
+		right: -240px;
+		z-index: 1;
+		padding-bottom: 100px;
+
+	}
+	.bg-img img{
+		width: 800px;
+	}
+
+.skills{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.skills-title, .my-portfolio-title{
+	font-size: 36px;
+	font-weight: 600;
+	text-align: center;	
+	margin-bottom: 100px;
+}
+
+.skills-information{
+	color: #8993ad;
+	font-size: 16px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+
+.inf1-skill, .inf2-skill, .inf3-skill, .inf4-skill{
+	text-align: center;
+}
+
+.img1-skill img, .img2-skill img, .img3-skill img, .img4-skill img{
+	height: 70px;
+	padding-bottom: 30px;
+}
+
+.img1-skill, .inf1-skill,.img2-skill,.img3-skill,.img4-skill,.inf2-skill,.inf3-skill,.inf4-skill{
+	display: flex;
+	justify-content: center;
+}
+
+.first-skill, .second-skill, .third-skill {
+	margin-right: 90px;
+	text-align: center;
+}
+
+.fourth-skill{
+	text-align: center;
+}
+
+.my-portfolio{
+	background-color: #FBFBFB;
+	padding-bottom: 100px;
+}
+
+.my-portfolio-title{
+	padding-top: 100px;
+}
+
+.btn-about button{
+	background-color: #FF4E2E;
+	color: white;
+	padding: 21px 70px;
+	border: none;
+	font-size: 14px;
+}
+
+.btn-about{
+	text-align: center;
+}
+
+.portfolio-slider{
+	text-align: center;	
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
+	font-size: 18px;
+	color: #8993AD;
+}
+
+.portfolio-1-img, .portfolio-2-img,.portfolio-3-img{
+	padding-bottom: 40px;
+}
+
+.about-me-info{
+	background: linear-gradient(to right top,#FF8F5A,#FF2F96);
+	color: white;
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+.about-me-title{
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 40px;
+}
+
+.about-me-text{
+	font-size: 18px;
+}
+
+.footer{
+	padding-top: 80px;
+	height: 160px;
+}
+
+.footer a{
+	color: #97A0B7;
+	text-decoration: none;
+}
+
+.left-footer{
+	float: left;
+	margin-right: 280px;
+	padding-bottom: 80px;
+}
+
+.center-footer{
+	float: left;
+}
+
+.right-footer{
+	float: right;
+}
+
+.nav-footer1,.nav-footer2{
+	padding-bottom: 15px;
+}
+
+.tel-footer, .email-footer{
+	display: flex;
+	text-align: center;
+}
+
+.tel-footer{
+	padding-bottom: 30px;
+}
+
+.img-tel-footer, .img-email-footer{
+	padding-right: 12px;
+}
+
+.button-footer button{
+	background-color: #FBFBFB;
+	border: 1px solid #FC6589;
+	color: #FC6589;
+	padding: 15px 35px;
+	font-size: 14px;
+}
+
+.icons-footer{
+	display: flex;
+	padding-top: 31px;
+}
+
+.facebook-icon{
+	padding-right: 32px;
+}
+
+.by{
+	background-color: #31293C;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.by-info{
+	color: whitesmoke;
+	font-size: 14px;
+	text-align: center;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+	.fixed-container {
+		width: 1140px;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.fixed-container {
+		width: 950px;
+	}
+	
+}
+
+@media screen and (max-width: 991px) {
+	.fixed-container {
+		width: 720px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.fixed-container {
+		width: 540px;
+	}
+	
+}
+
+@media screen and (max-width: 575px) {
+	.fixed-container,{
+		width: 100%;
+		padding: 0 15px;
+	}
+	.nav{
+		display: none;
+	}
+}
